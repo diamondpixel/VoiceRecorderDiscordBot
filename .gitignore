@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.manifest
+*.spec
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+
+# Recordings
+*.ogg
+recordings/
