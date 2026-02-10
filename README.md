@@ -33,3 +33,8 @@ A Discord bot that records voice audio from users in a voice channel to `.ogg` f
 -   `/startrecord <user> <path>`: Start recording a user.
 -   `/stoprecord`: Stop recording and save the file.
 -   `/leave`: Leave the voice channel.
+
+## License & Disclaimer
+This project is open-source and free to use for any purpose.
+
+**DISCLAIMER:** This software is provided for **educational purposes only**. The authors and contributors are not responsible for any misuse, harm, or legal consequences arising from the use of this bot. It is your responsibility to ensure you comply with all applicable laws and Discord's Terms of Service regarding audio recording and consent.
