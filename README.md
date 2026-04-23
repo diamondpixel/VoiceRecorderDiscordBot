@@ -3,7 +3,7 @@
 A Discord bot that records voice audio from users in a voice channel to `.ogg` files.
 
 ## Features
--   Records specific users to local `.ogg` files.
+-   Records multiple specific users to separate local `.ogg` files in the same session.
 -   Handles Opus packets directly from Discord.
 -   Patched to fix common `voice_recv` crashes.
 
@@ -30,8 +30,8 @@ A Discord bot that records voice audio from users in a voice channel to `.ogg` f
 
 ## Commands
 -   `/join`: Join your current voice channel.
--   `/startrecord <user> <path>`: Start recording a user.
--   `/stoprecord`: Stop recording and save the file.
+-   `/startrecord <user> <path>`: Start a recording session or add another user to the active session.
+-   `/stoprecord`: Stop recording and save every recorded user's file.
 -   `/leave`: Leave the voice channel.
 
 ## License & Disclaimer
